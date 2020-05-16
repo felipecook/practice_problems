@@ -24,3 +24,11 @@ def run_program():
 
 
 run_program()
+
+
+def same_first_last(nums):
+    return len(nums) >= 1 and nums[0] == nums[len(nums) - 1]
+
+
+test_list = [7]
+print(same_first_last(test_list))
