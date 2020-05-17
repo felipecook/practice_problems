@@ -7,3 +7,5 @@ def common_end(a, b):
         return True
 
     return False
+
+
